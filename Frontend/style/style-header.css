@@ -39,5 +39,74 @@
     transition: transform 0.5s;
     background: rgb(65, 73, 143);
 } 
+/*?styles-price*/
+.price{
+    border: 1px solid rgb(66, 66, 117);
+    border-radius: 10px;
+    display: flex;
+    padding: 100px 100px;
+    gap: 30px;
+}
+.service{
+    border: 1px solid rgb(66, 66, 117);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 300px;
+}
+.service h1{
+    font-size: 20px;
+}
+.service p{
+    font-size: 15px;
+}
+.service a{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    list-style: circle;
+}
+.top{
+    border: 1px solid red;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.mid{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 20px 50px ;
+}
+.botton{
+    height: auto;
+    width: auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.button-pre {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 50px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    background: rgb(43, 46, 90);
+    color: aliceblue;
+}
+.button-pre:hover{
+    background: rgb(65, 73, 143);
+    transition: .5s;
+    color: aliceblue;
+}
+.button-pre:active {
+    transform: scale(0.5);
+    transition: transform 0.5s;
+    background: rgb(65, 73, 143);
+} 
 
 
