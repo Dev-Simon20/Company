@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
+.box-header a{
+    list-style: none; 
+    text-decoration: none;
+}
+.box-header img{
+    width: 100px;
+}
+.button-contact {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+    cursor: pointer;
+    background: rgb(43, 46, 90);
+    color: aliceblue;
+
+}
+.button-contact:hover{
+    background: rgb(65, 73, 143);
+    transition: .5s;
+    color: aliceblue;
+}
+.button-contact:active {
+    transform: scale(0.5);
+    transition: transform 0.5s;
+    background: rgb(65, 73, 143);
+} 
+
+
