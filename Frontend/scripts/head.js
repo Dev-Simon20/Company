@@ -1,5 +1,4 @@
 export function header(ruta){
-    
     return ` <div class="box-header">
     <a href=""><img src="${ruta}" alt="logo-empresa"></a>
     <a href="">Algo</a>

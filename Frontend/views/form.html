@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/style-header.css">
+    <link rel="stylesheet" href="../style/style-form.css">
 </head>
-<body>
+<body >
     <header class="header"></header>
+    <div class="main">
+        <div class="info">
+            <p class="dis tit" >Contacto</p>
+            <p class="dis tit" >¡Trabajemos Juntos!</p>
+            <p class="dis" >Si deseas consultar mayor<br>informacion sobre    nuestros <br>servicios  o tienes alguna duda al <br> respecto, no dudes en solicitar <br> una consultoria gratuita y uno de <br> nuestros asesores comtactara a <br> la brevedad.</p>
+            <p class="dis cont">Contacanos via Whatsapp +51 966516707</p>
+            <p class="dis cont">jeanpierks6@gmail.com</p>
+        </div>
+        <form action="" class="form">
+            <h2    class="sep  title" >¿Quieres saber más?</h2>
+            <label class="sep lab" for="">Nombres</label>
+            <input class="sep inp" id="nombre" type="text">
+            <label class="sep lab" for="">Nombre de la empresa</label>
+            <input class="sep inp" id="empresa" type="text">
+            <label class="sep lab" for="">Correo Electronico</label>
+            <input class="sep inp" id="correo" type="email">
+            <label class="sep lab" for="">Telefono</label>
+            <input class="sep inp" id="num" type="number">
+            <label class="sep lab" for="">Mensaje</label>
+        <textarea  class="sep lab textarea" id="mens"></textarea>
+            <input class="sep inp sub" type="submit" id="send">
+        </form>
+    </div>
     
    <script type="module" src="../scripts/form.js"></script>   
 </body>
